@@ -1,0 +1,48 @@
+.now-playing-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.audio-player {
+  width: 500px;
+}
+
+.player-button {
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.player-button:hover {
+  background-color: #eee;
+}
+
+.table-container {
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.playlist-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.player {
+  background-color: aquamarine;
+  border: 2px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.controls{
+  background-color: white;
+  border: 2px solid;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}

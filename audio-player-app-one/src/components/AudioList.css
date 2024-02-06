@@ -1,0 +1,29 @@
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+  .playlist-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .playlist-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .playlist-item:hover {
+    background-color: #eee;
+  }
+  
